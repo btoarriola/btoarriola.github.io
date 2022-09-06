@@ -24,7 +24,7 @@ export class WorkExperienceComponent implements OnInit {
     };
   
     let  work2 = {
-      fecha: "2014-2108",
+      fecha: "2014-2018",
       ubicacion: "Orizaba, Ver.",
       puesto: "CEO",
       empresa: "Kubeet",
