@@ -1,0 +1,25 @@
+.table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    border: 0;
+}
+
+#title{
+    font-size:1.5vw;
+    margin-top: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logroFecha{
+    background-color: #2a911c;
+}
+.logroFecha td{
+    color: white;
+}
+
+li{
+    color:#271c91
+}
+li td{
+    color: black;
+}
