@@ -16,6 +16,10 @@
     background-color: white;
 }
 
-#we{
+.vline{
     border-right:#271c91 1px solid;
+}
+
+.hline{
+    border-bottom:#271c91 1px solid;
 }
