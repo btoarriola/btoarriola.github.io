@@ -1,0 +1,29 @@
+.table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    border: 0;
+    padding-right: 15px;
+    border-spacing:0px 10px;
+    
+}
+
+#title{
+    font-size:1.5vw;
+    margin-top: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#header{
+    border-right:#271c91 1px solid;
+    height: 15px;
+    
+
+}
+
+#full1{
+    background-color: #271c91;
+}
+
+#full2{
+    background-color: #2a911c;
+}
