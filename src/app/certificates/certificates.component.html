@@ -1,1 +1,20 @@
-<p>certificates works!</p>
+<p id="title"><b>Certificados</b></p>
+
+<table class="table">
+
+    <ul *ngFor="let cert of certificates" id="lista">
+        <li>
+            <tr>
+               <td width="77%"><b>{{ cert.nombre }}</b> </td>  <td width="23%"><b id="fecha"> {{ cert.fecha }}</b></td>
+            </tr>
+            <tr>
+               <td colspan="2"><i id="otorga">{{ cert.otorga }}</i></td> 
+            </tr>
+            <tr>
+               <td colspan="2"><p id="desc">{{ cert.descripcion }}</p> </td>
+            </tr>
+    
+        </li>
+    </ul>
+    
+    </table>
