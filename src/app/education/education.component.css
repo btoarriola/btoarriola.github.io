@@ -1,0 +1,36 @@
+.table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    border: 0;
+    padding-right: 15px;
+    border-spacing:0px;
+    
+}
+
+#title{
+    font-size:1.5vw;
+    margin-top: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    color:#271c91
+}
+li td{
+    color: black;
+}
+
+#fecha{
+    background-color: #2a911c;
+    color: white;
+}
+
+#nombre{
+    font-size:14px;
+    color: #271c91;
+}
+
+#desc{
+    font-size:14.5px;
+    margin-top: 0;
+}

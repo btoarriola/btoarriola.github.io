@@ -1,0 +1,32 @@
+.table{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 100%;
+    border: 0;
+    padding-right: 15px;
+    border-spacing:0px;
+    
+}
+
+#title{
+    font-size:1.5vw;
+    margin-top: 4vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lista{
+    padding-left: 20px;
+}
+
+#fecha{
+    color: #2a911c;
+}
+
+#otorga{
+    font-size:13.5px;
+    color: #271c91;
+}
+
+#desc{
+    font-size:14.5px;
+    margin-top: 0;
+}

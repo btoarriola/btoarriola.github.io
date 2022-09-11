@@ -1,0 +1,20 @@
+<p id="title"><b>Educación</b></p>
+
+<table class="table">
+
+    <ul *ngFor="let edu of education">
+        <li>
+            <tr>
+               <td width="77%"><b id="fecha">{{ edu.fecha }}</b> </td>
+            </tr>
+            <tr>
+                <td width="23%"><b> {{ edu.titulo }}</b></td>
+            </tr>
+            <tr>
+               <td colspan="2"><i id="nombre">{{ edu.nombre }}</i> </td>
+            </tr>
+    
+        </li>
+    </ul>
+    
+    </table>
