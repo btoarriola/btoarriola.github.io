@@ -28,13 +28,15 @@ export class CertificatesComponent implements OnInit {
       nombre: "Curso Python",
       fecha: "2023",
       otorga: "Kaggle",
-      descripcion : "Curso online" 
+      descripcion : "Curso online:" ,
+      link: "https://raw.githubusercontent.com/btoarriola/btoarriola.github.io/master/src/assets/images/python.png"
     };
     let  cert4 = {
       nombre: "Curso Pandas",
       fecha: "2023",
       otorga: "Kaggle",
-      descripcion : "Curso online" 
+      descripcion : "Curso online:" ,
+      link:"https://raw.githubusercontent.com/btoarriola/btoarriola.github.io/master/src/assets/images/pandas.png"
     };
     
     this.certificates.push(cert1);
