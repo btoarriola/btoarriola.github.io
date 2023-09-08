@@ -23,10 +23,24 @@ export class CertificatesComponent implements OnInit {
       fecha: "2015",
       otorga: "Escuela secundaria tecnica",
       descripcion : "Capacitacion de los elementos que componen una computadora, como darles mantenimiento correctivo y preventivo, ensable de sus componentes e instalación de este." 
-    }
+    };
+    let  cert3 = {
+      nombre: "Curso Python",
+      fecha: "2023",
+      otorga: "Kaggle",
+      descripcion : "Curso online" 
+    };
+    let  cert4 = {
+      nombre: "Curso Pandas",
+      fecha: "2023",
+      otorga: "Kaggle",
+      descripcion : "Curso online" 
+    };
     
     this.certificates.push(cert1);
     this.certificates.push(cert2);
+    this.certificates.push(cert3);
+    this.certificates.push(cert4);
   }
 
 }
